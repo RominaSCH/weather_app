@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "firstReact",
-    "slug": "firstReact",
+    "name": "Weather_app",
+    "slug": "romina_weather",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "",
+    "githubUrl": "https://github.com/RominaSCH/weather_app"
   }
 }

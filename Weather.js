@@ -21,13 +21,13 @@ const weatherOptions = {
     iconName: "day-rain",
     gradient: ["#1A2980","#26D0CE"],
     title:"Bring the umbrella",
-    subtitle:"Hear the rain's knock knock"
+    subtitle:"Hear the rain's sounds"
   },
   Rain: {
     iconName: "rain",
     gradient: ["#7ea6e0","#cad0d9"],
     title:"Bring the umbrella",
-    subtitle:"Hear the rain's knock knock"
+    subtitle:"Hear the rain's sounds"
   },
   Snow: {
     iconName: "snow",
@@ -45,7 +45,7 @@ const weatherOptions = {
     iconName: "day-sunny",
     gradient: ["#0ab1ff", "#c9eeff"],
     title:"Sunny day Happy day",
-    subtitle:"get out will be nice for you"
+    subtitle:"get out would be nice for you"
   },
   Clouds: {
     iconName: "cloudy",
@@ -118,13 +118,17 @@ const styles = StyleSheet.create({
   },
   title:{
     color:"white",
-    fontSize:60,
+    fontSize:45,
     fontWeight:"400",
-    marginBottom:7
+    marginHorizontal:25,
+    marginBottom:5,
+    textAlign:"center"
   },
   subtitle:{
     color:"white",
-    fontSize:25,
-    fontWeight:"500"
+    fontSize:20,
+    fontWeight:"500",
+    marginHorizontal:25,
+    textAlign:"center"
   }
 });
