@@ -7,9 +7,6 @@ import { Alert } from "react-native";
 import axios from "axios";
 import Weather from "./Weather";
 
-
-const API_KEY = "d48212548c4a180300dbe64fcad355d7";
-
 export default class extends React.Component {
   state = {
     isLoading: true,
